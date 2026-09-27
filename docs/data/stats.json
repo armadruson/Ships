@@ -1,0 +1,1632 @@
+{
+ "generated": "2026-09-27",
+ "years": [
+  2012,
+  2025
+ ],
+ "gt_from": 2014,
+ "regions": [
+  "South Asia",
+  "Turkey",
+  "China",
+  "Rest of world"
+ ],
+ "categories": [
+  "Bulk carrier",
+  "Tanker",
+  "Container",
+  "General cargo",
+  "Offshore & drilling",
+  "Passenger & Ro-Ro",
+  "Fishing",
+  "Other"
+ ],
+ "totals": {
+  "ships": 10386,
+  "south_asia": 6919,
+  "south_asia_share": 0.666,
+  "median_age": 29,
+  "gt": 183817129,
+  "owner_countries": 135,
+  "flags": 146,
+  "destinations": 68
+ },
+ "latest": {
+  "year": 2025,
+  "ships": 321,
+  "south_asia_share": 0.67,
+  "top_owner": [
+   "China",
+   31
+  ],
+  "top_yard": [
+   "Alang",
+   111
+  ],
+  "top_flag": [
+   "St Kitts & Nevis",
+   59
+  ]
+ },
+ "annual": [
+  {
+   "year": 2012,
+   "ships": 1253,
+   "regions": {
+    "South Asia": 850,
+    "Turkey": 153,
+    "China": 209,
+    "Rest of world": 41
+   },
+   "categories": {
+    "Bulk carrier": 508,
+    "Tanker": 179,
+    "Container": 174,
+    "General cargo": 296,
+    "Offshore & drilling": 8,
+    "Passenger & Ro-Ro": 70,
+    "Fishing": 6,
+    "Other": 12
+   },
+   "age": [
+    24.0,
+    28.0,
+    31.0
+   ],
+   "flag_mismatch": 0.81,
+   "gt": null,
+   "gt_regions": null
+  },
+  {
+   "year": 2013,
+   "ships": 1213,
+   "regions": {
+    "South Asia": 645,
+    "Turkey": 220,
+    "China": 312,
+    "Rest of world": 36
+   },
+   "categories": {
+    "Bulk carrier": 409,
+    "Tanker": 142,
+    "Container": 172,
+    "General cargo": 321,
+    "Offshore & drilling": 0,
+    "Passenger & Ro-Ro": 95,
+    "Fishing": 16,
+    "Other": 58
+   },
+   "age": [
+    25.0,
+    29,
+    33.0
+   ],
+   "flag_mismatch": 0.743,
+   "gt": null,
+   "gt_regions": null
+  },
+  {
+   "year": 2014,
+   "ships": 1026,
+   "regions": {
+    "South Asia": 641,
+    "Turkey": 157,
+    "China": 163,
+    "Rest of world": 65
+   },
+   "categories": {
+    "Bulk carrier": 286,
+    "Tanker": 162,
+    "Container": 167,
+    "General cargo": 268,
+    "Offshore & drilling": 25,
+    "Passenger & Ro-Ro": 78,
+    "Fishing": 17,
+    "Other": 23
+   },
+   "age": [
+    23.0,
+    29.0,
+    33.0
+   ],
+   "flag_mismatch": 0.678,
+   "gt": 22689843,
+   "gt_regions": {
+    "South Asia": 16733302,
+    "Turkey": 975266,
+    "China": 4350574,
+    "Rest of world": 630701
+   }
+  },
+  {
+   "year": 2015,
+   "ships": 769,
+   "regions": {
+    "South Asia": 469,
+    "Turkey": 100,
+    "China": 158,
+    "Rest of world": 42
+   },
+   "categories": {
+    "Bulk carrier": 357,
+    "Tanker": 75,
+    "Container": 87,
+    "General cargo": 115,
+    "Offshore & drilling": 61,
+    "Passenger & Ro-Ro": 43,
+    "Fishing": 13,
+    "Other": 18
+   },
+   "age": [
+    22.0,
+    28.5,
+    33.0
+   ],
+   "flag_mismatch": 0.664,
+   "gt": 20396280,
+   "gt_regions": {
+    "South Asia": 15004059,
+    "Turkey": 1083104,
+    "China": 4148851,
+    "Rest of world": 160266
+   }
+  },
+  {
+   "year": 2016,
+   "ships": 862,
+   "regions": {
+    "South Asia": 668,
+    "Turkey": 92,
+    "China": 74,
+    "Rest of world": 28
+   },
+   "categories": {
+    "Bulk carrier": 391,
+    "Tanker": 54,
+    "Container": 167,
+    "General cargo": 126,
+    "Offshore & drilling": 59,
+    "Passenger & Ro-Ro": 41,
+    "Fishing": 4,
+    "Other": 20
+   },
+   "age": [
+    19.0,
+    24.0,
+    32.0
+   ],
+   "flag_mismatch": 0.786,
+   "gt": 27454543,
+   "gt_regions": {
+    "South Asia": 23809349,
+    "Turkey": 1004335,
+    "China": 2547938,
+    "Rest of world": 92921
+   }
+  },
+  {
+   "year": 2017,
+   "ships": 835,
+   "regions": {
+    "South Asia": 543,
+    "Turkey": 133,
+    "China": 98,
+    "Rest of world": 61
+   },
+   "categories": {
+    "Bulk carrier": 177,
+    "Tanker": 139,
+    "Container": 144,
+    "General cargo": 195,
+    "Offshore & drilling": 87,
+    "Passenger & Ro-Ro": 48,
+    "Fishing": 12,
+    "Other": 33
+   },
+   "age": [
+    21.0,
+    28,
+    35.0
+   ],
+   "flag_mismatch": 0.794,
+   "gt": 20698103,
+   "gt_regions": {
+    "South Asia": 16619239,
+    "Turkey": 1380955,
+    "China": 2296190,
+    "Rest of world": 401719
+   }
+  },
+  {
+   "year": 2018,
+   "ships": 744,
+   "regions": {
+    "South Asia": 518,
+    "Turkey": 113,
+    "China": 22,
+    "Rest of world": 91
+   },
+   "categories": {
+    "Bulk carrier": 60,
+    "Tanker": 258,
+    "Container": 45,
+    "General cargo": 126,
+    "Offshore & drilling": 137,
+    "Passenger & Ro-Ro": 43,
+    "Fishing": 15,
+    "Other": 60
+   },
+   "age": [
+    23.0,
+    32.0,
+    39.0
+   ],
+   "flag_mismatch": 0.772,
+   "gt": 18891322,
+   "gt_regions": {
+    "South Asia": 17069950,
+    "Turkey": 962986,
+    "China": 424032,
+    "Rest of world": 434354
+   }
+  },
+  {
+   "year": 2019,
+   "ships": 674,
+   "regions": {
+    "South Asia": 469,
+    "Turkey": 107,
+    "China": 29,
+    "Rest of world": 69
+   },
+   "categories": {
+    "Bulk carrier": 93,
+    "Tanker": 126,
+    "Container": 101,
+    "General cargo": 138,
+    "Offshore & drilling": 111,
+    "Passenger & Ro-Ro": 42,
+    "Fishing": 18,
+    "Other": 45
+   },
+   "age": [
+    23.0,
+    30.0,
+    38.0
+   ],
+   "flag_mismatch": 0.769,
+   "gt": 13514458,
+   "gt_regions": {
+    "South Asia": 11800721,
+    "Turkey": 1169163,
+    "China": 304320,
+    "Rest of world": 240254
+   }
+  },
+  {
+   "year": 2020,
+   "ships": 630,
+   "regions": {
+    "South Asia": 446,
+    "Turkey": 94,
+    "China": 20,
+    "Rest of world": 70
+   },
+   "categories": {
+    "Bulk carrier": 117,
+    "Tanker": 115,
+    "Container": 77,
+    "General cargo": 100,
+    "Offshore & drilling": 105,
+    "Passenger & Ro-Ro": 58,
+    "Fishing": 22,
+    "Other": 36
+   },
+   "age": [
+    23.0,
+    29.0,
+    37.0
+   ],
+   "flag_mismatch": 0.766,
+   "gt": 15398714,
+   "gt_regions": {
+    "South Asia": 13269452,
+    "Turkey": 1624568,
+    "China": 216010,
+    "Rest of world": 288684
+   }
+  },
+  {
+   "year": 2021,
+   "ships": 763,
+   "regions": {
+    "South Asia": 583,
+    "Turkey": 77,
+    "China": 8,
+    "Rest of world": 95
+   },
+   "categories": {
+    "Bulk carrier": 73,
+    "Tanker": 303,
+    "Container": 18,
+    "General cargo": 105,
+    "Offshore & drilling": 154,
+    "Passenger & Ro-Ro": 51,
+    "Fishing": 32,
+    "Other": 27
+   },
+   "age": [
+    24.0,
+    30,
+    39.0
+   ],
+   "flag_mismatch": 0.748,
+   "gt": 16014464,
+   "gt_regions": {
+    "South Asia": 14153274,
+    "Turkey": 1368929,
+    "China": 92631,
+    "Rest of world": 399630
+   }
+  },
+  {
+   "year": 2022,
+   "ships": 443,
+   "regions": {
+    "South Asia": 292,
+    "Turkey": 49,
+    "China": 13,
+    "Rest of world": 89
+   },
+   "categories": {
+    "Bulk carrier": 46,
+    "Tanker": 156,
+    "Container": 4,
+    "General cargo": 40,
+    "Offshore & drilling": 83,
+    "Passenger & Ro-Ro": 57,
+    "Fishing": 25,
+    "Other": 32
+   },
+   "age": [
+    24.0,
+    32.0,
+    41.0
+   ],
+   "flag_mismatch": 0.708,
+   "gt": 7962192,
+   "gt_regions": {
+    "South Asia": 6583121,
+    "Turkey": 767440,
+    "China": 204024,
+    "Rest of world": 407607
+   }
+  },
+  {
+   "year": 2023,
+   "ships": 444,
+   "regions": {
+    "South Asia": 325,
+    "Turkey": 44,
+    "China": 0,
+    "Rest of world": 75
+   },
+   "categories": {
+    "Bulk carrier": 98,
+    "Tanker": 54,
+    "Container": 79,
+    "General cargo": 89,
+    "Offshore & drilling": 37,
+    "Passenger & Ro-Ro": 24,
+    "Fishing": 40,
+    "Other": 23
+   },
+   "age": [
+    26.0,
+    32.5,
+    40.0
+   ],
+   "flag_mismatch": 0.747,
+   "gt": 7669426,
+   "gt_regions": {
+    "South Asia": 6524244,
+    "Turkey": 470966,
+    "China": 0,
+    "Rest of world": 674216
+   }
+  },
+  {
+   "year": 2024,
+   "ships": 409,
+   "regions": {
+    "South Asia": 255,
+    "Turkey": 84,
+    "China": 18,
+    "Rest of world": 52
+   },
+   "categories": {
+    "Bulk carrier": 59,
+    "Tanker": 41,
+    "Container": 57,
+    "General cargo": 138,
+    "Offshore & drilling": 22,
+    "Passenger & Ro-Ro": 29,
+    "Fishing": 39,
+    "Other": 24
+   },
+   "age": [
+    28.0,
+    35,
+    42.0
+   ],
+   "flag_mismatch": 0.706,
+   "gt": 5665320,
+   "gt_regions": {
+    "South Asia": 4515687,
+    "Turkey": 477075,
+    "China": 59211,
+    "Rest of world": 613347
+   }
+  },
+  {
+   "year": 2025,
+   "ships": 321,
+   "regions": {
+    "South Asia": 215,
+    "Turkey": 49,
+    "China": 10,
+    "Rest of world": 47
+   },
+   "categories": {
+    "Bulk carrier": 69,
+    "Tanker": 87,
+    "Container": 11,
+    "General cargo": 81,
+    "Offshore & drilling": 21,
+    "Passenger & Ro-Ro": 25,
+    "Fishing": 14,
+    "Other": 13
+   },
+   "age": [
+    27.0,
+    31,
+    42.0
+   ],
+   "flag_mismatch": 0.697,
+   "gt": 7462464,
+   "gt_regions": {
+    "South Asia": 6475268,
+    "Turkey": 677489,
+    "China": 83420,
+    "Rest of world": 226287
+   }
+  }
+ ],
+ "yards": [
+  {
+   "name": "Alang",
+   "country": "India",
+   "ships": 3072,
+   "lon": 72.17,
+   "lat": 21.4
+  },
+  {
+   "name": "Chattogram",
+   "country": "Bangladesh",
+   "ships": 2586,
+   "lon": 91.7,
+   "lat": 22.45
+  },
+  {
+   "name": "Aliağa",
+   "country": "Turkey",
+   "ships": 1471,
+   "lon": 26.93,
+   "lat": 38.8
+  },
+  {
+   "name": "Gadani",
+   "country": "Pakistan",
+   "ships": 1097,
+   "lon": 66.73,
+   "lat": 25.12
+  },
+  {
+   "name": "Jiangyin",
+   "country": "China",
+   "ships": 358,
+   "lon": 120.27,
+   "lat": 31.91
+  },
+  {
+   "name": "Xinhui",
+   "country": "China",
+   "ships": 259,
+   "lon": 113.03,
+   "lat": 22.46
+  },
+  {
+   "name": "Zhangjiagang",
+   "country": "China",
+   "ships": 170,
+   "lon": 120.55,
+   "lat": 31.88
+  },
+  {
+   "name": "Mumbai",
+   "country": "India",
+   "ships": 135,
+   "lon": 72.84,
+   "lat": 18.95
+  },
+  {
+   "name": "Grenaa",
+   "country": "Denmark",
+   "ships": 102,
+   "lon": 10.93,
+   "lat": 56.41
+  },
+  {
+   "name": "Zhoushan",
+   "country": "China",
+   "ships": 82,
+   "lon": 122.2,
+   "lat": 29.99
+  },
+  {
+   "name": "Brownsville",
+   "country": "United States",
+   "ships": 66,
+   "lon": -97.4,
+   "lat": 25.95
+  },
+  {
+   "name": "Ghent",
+   "country": "Belgium",
+   "ships": 55,
+   "lon": 3.73,
+   "lat": 51.1
+  },
+  {
+   "name": "Busan",
+   "country": "South Korea",
+   "ships": 45,
+   "lon": 129.04,
+   "lat": 35.1
+  },
+  {
+   "name": "Esbjerg",
+   "country": "Denmark",
+   "ships": 41,
+   "lon": 8.45,
+   "lat": 55.47
+  },
+  {
+   "name": "Ningde",
+   "country": "China",
+   "ships": 23,
+   "lon": 119.53,
+   "lat": 26.66
+  },
+  {
+   "name": "Frederikshavn",
+   "country": "Denmark",
+   "ships": 17,
+   "lon": 10.54,
+   "lat": 57.44
+  },
+  {
+   "name": "Surabaya",
+   "country": "Indonesia",
+   "ships": 17,
+   "lon": 112.73,
+   "lat": -7.2
+  },
+  {
+   "name": "Stokksund",
+   "country": "Norway",
+   "ships": 17,
+   "lon": 10.05,
+   "lat": 64.03
+  },
+  {
+   "name": "Port Colborne",
+   "country": "Canada",
+   "ships": 16,
+   "lon": -79.25,
+   "lat": 42.88
+  },
+  {
+   "name": "Dalian",
+   "country": "China",
+   "ships": 15,
+   "lon": 121.61,
+   "lat": 38.91
+  },
+  {
+   "name": "Jiangmen",
+   "country": "China",
+   "ships": 14,
+   "lon": 113.08,
+   "lat": 22.58
+  },
+  {
+   "name": "Kolkata",
+   "country": "India",
+   "ships": 13,
+   "lon": 88.33,
+   "lat": 22.55
+  },
+  {
+   "name": "Shidao",
+   "country": "China",
+   "ships": 12,
+   "lon": 122.43,
+   "lat": 36.88
+  },
+  {
+   "name": "Xingang",
+   "country": "China",
+   "ships": 11,
+   "lon": 117.73,
+   "lat": 38.97
+  },
+  {
+   "name": "Klaipeda",
+   "country": "Lithuania",
+   "ships": 11,
+   "lon": 21.13,
+   "lat": 55.71
+  },
+  {
+   "name": "Gravendeel",
+   "country": "Netherlands",
+   "ships": 10,
+   "lon": 4.62,
+   "lat": 51.78
+  },
+  {
+   "name": "Bojonegara",
+   "country": "Indonesia",
+   "ships": 10,
+   "lon": 106.08,
+   "lat": -5.97
+  },
+  {
+   "name": "Guayaquil",
+   "country": "Ecuador",
+   "ships": 9,
+   "lon": -79.88,
+   "lat": -2.2
+  },
+  {
+   "name": "Jingjiang",
+   "country": "China",
+   "ships": 9,
+   "lon": 120.27,
+   "lat": 32.01
+  },
+  {
+   "name": "Gijon",
+   "country": "Spain",
+   "ships": 9,
+   "lon": -5.66,
+   "lat": 43.54
+  },
+  {
+   "name": "Hanoytangen",
+   "country": "Norway",
+   "ships": 9,
+   "lon": 5.14,
+   "lat": 60.53
+  },
+  {
+   "name": "Taizhou",
+   "country": "China",
+   "ships": 8,
+   "lon": 121.42,
+   "lat": 28.66
+  },
+  {
+   "name": "Shanghai",
+   "country": "China",
+   "ships": 8,
+   "lon": 121.49,
+   "lat": 31.23
+  },
+  {
+   "name": "Brest",
+   "country": "France",
+   "ships": 8,
+   "lon": -4.49,
+   "lat": 48.38
+  },
+  {
+   "name": "Batam",
+   "country": "Indonesia",
+   "ships": 8,
+   "lon": 104.03,
+   "lat": 1.08
+  },
+  {
+   "name": "Jakarta",
+   "country": "Indonesia",
+   "ships": 7,
+   "lon": 106.85,
+   "lat": -6.1
+  },
+  {
+   "name": "Liepaja",
+   "country": "Latvia",
+   "ships": 7,
+   "lon": 21.01,
+   "lat": 56.51
+  },
+  {
+   "name": "Lagos",
+   "country": "Nigeria",
+   "ships": 7,
+   "lon": 3.39,
+   "lat": 6.44
+  },
+  {
+   "name": "Leith",
+   "country": "United Kingdom",
+   "ships": 7,
+   "lon": -3.17,
+   "lat": 55.98
+  },
+  {
+   "name": "Le Havre",
+   "country": "France",
+   "ships": 7,
+   "lon": 0.11,
+   "lat": 49.49
+  },
+  {
+   "name": "Murmansk",
+   "country": "Russia",
+   "ships": 7,
+   "lon": 33.08,
+   "lat": 68.97
+  },
+  {
+   "name": "Feda",
+   "country": "Norway",
+   "ships": 7,
+   "lon": 6.8,
+   "lat": 58.26
+  },
+  {
+   "name": "Gaogang",
+   "country": "China",
+   "ships": 6,
+   "lon": 119.87,
+   "lat": 32.32
+  },
+  {
+   "name": "Sachana",
+   "country": "India",
+   "ships": 6,
+   "lon": 70.02,
+   "lat": 22.58
+  },
+  {
+   "name": "Colon",
+   "country": "Panama",
+   "ships": 5,
+   "lon": -79.9,
+   "lat": 9.36
+  },
+  {
+   "name": "Ulsteinvik",
+   "country": "Norway",
+   "ships": 5,
+   "lon": 5.85,
+   "lat": 62.34
+  },
+  {
+   "name": "Bilbao",
+   "country": "Spain",
+   "ships": 4,
+   "lon": -3.04,
+   "lat": 43.33
+  },
+  {
+   "name": "Chongming",
+   "country": "China",
+   "ships": 4,
+   "lon": 121.4,
+   "lat": 31.62
+  },
+  {
+   "name": "Wenzhou",
+   "country": "China",
+   "ships": 4,
+   "lon": 120.67,
+   "lat": 27.99
+  },
+  {
+   "name": "Mokpo",
+   "country": "South Korea",
+   "ships": 4,
+   "lon": 126.39,
+   "lat": 34.79
+  },
+  {
+   "name": "Montevideo",
+   "country": "Uruguay",
+   "ships": 4,
+   "lon": -56.21,
+   "lat": -34.9
+  },
+  {
+   "name": "Alang",
+   "country": "Inda",
+   "ships": 1,
+   "lon": 72.17,
+   "lat": 21.4
+  }
+ ],
+ "countries_other": [
+  {
+   "country": "China",
+   "ships": 151
+  },
+  {
+   "country": "Indonesia",
+   "ships": 24
+  },
+  {
+   "country": "Russia",
+   "ships": 24
+  },
+  {
+   "country": "United States",
+   "ships": 21
+  },
+  {
+   "country": "United Kingdom",
+   "ships": 12
+  },
+  {
+   "country": "Mexico",
+   "ships": 11
+  },
+  {
+   "country": "Netherlands",
+   "ships": 10
+  },
+  {
+   "country": "India",
+   "ships": 9
+  },
+  {
+   "country": "Philippines",
+   "ships": 9
+  },
+  {
+   "country": "Denmark",
+   "ships": 9
+  },
+  {
+   "country": "Spain",
+   "ships": 9
+  },
+  {
+   "country": "Norway",
+   "ships": 9
+  },
+  {
+   "country": "Vietnam",
+   "ships": 8
+  },
+  {
+   "country": "Canada",
+   "ships": 8
+  },
+  {
+   "country": "Ukraine",
+   "ships": 6
+  },
+  {
+   "country": "Cuba",
+   "ships": 6
+  },
+  {
+   "country": "Egypt",
+   "ships": 6
+  },
+  {
+   "country": "France",
+   "ships": 5
+  },
+  {
+   "country": "Romania",
+   "ships": 5
+  },
+  {
+   "country": "Brazil",
+   "ships": 5
+  },
+  {
+   "country": "Australia",
+   "ships": 5
+  },
+  {
+   "country": "South Korea",
+   "ships": 5
+  },
+  {
+   "country": "Dominican Republic",
+   "ships": 4
+  },
+  {
+   "country": "Japan",
+   "ships": 4
+  },
+  {
+   "country": "Italy",
+   "ships": 4
+  },
+  {
+   "country": "Latvia",
+   "ships": 4
+  },
+  {
+   "country": "Namibia",
+   "ships": 3
+  },
+  {
+   "country": "Curacao",
+   "ships": 3
+  },
+  {
+   "country": "Iceland",
+   "ships": 3
+  },
+  {
+   "country": "Azerbaijan",
+   "ships": 3
+  },
+  {
+   "country": "South Africa",
+   "ships": 3
+  },
+  {
+   "country": "Ecuador",
+   "ships": 3
+  },
+  {
+   "country": "Bahrain",
+   "ships": 2
+  },
+  {
+   "country": "Sweden",
+   "ships": 2
+  },
+  {
+   "country": "Greece",
+   "ships": 2
+  },
+  {
+   "country": "Canary Islands",
+   "ships": 2
+  },
+  {
+   "country": "Unkwown",
+   "ships": 2
+  },
+  {
+   "country": "Taiwan",
+   "ships": 2
+  },
+  {
+   "country": "Argentina",
+   "ships": 2
+  },
+  {
+   "country": "United Arab Emirates",
+   "ships": 2
+  },
+  {
+   "country": "Croatia",
+   "ships": 1
+  },
+  {
+   "country": "Portugal",
+   "ships": 1
+  },
+  {
+   "country": "Finland",
+   "ships": 1
+  },
+  {
+   "country": "Philippinnes",
+   "ships": 1
+  },
+  {
+   "country": "Cameroon",
+   "ships": 1
+  },
+  {
+   "country": "Grenada",
+   "ships": 1
+  },
+  {
+   "country": "Montenegro",
+   "ships": 1
+  },
+  {
+   "country": "Unknown?",
+   "ships": 1
+  },
+  {
+   "country": "South",
+   "ships": 1
+  },
+  {
+   "country": "Pakistan",
+   "ships": 1
+  },
+  {
+   "country": "Thailand",
+   "ships": 1
+  },
+  {
+   "country": "Malta",
+   "ships": 1
+  },
+  {
+   "country": "Uknown",
+   "ships": 1
+  },
+  {
+   "country": "Cyprus",
+   "ships": 1
+  },
+  {
+   "country": "New Zealand",
+   "ships": 1
+  },
+  {
+   "country": "Lithuania",
+   "ships": 1
+  },
+  {
+   "country": "Unkown",
+   "ships": 1
+  },
+  {
+   "country": "Panama",
+   "ships": 1
+  },
+  {
+   "country": "Turkey",
+   "ships": 1
+  },
+  {
+   "country": "Nigeria",
+   "ships": 1
+  },
+  {
+   "country": "Senegal",
+   "ships": 1
+  },
+  {
+   "country": "North Korea",
+   "ships": 1
+  },
+  {
+   "country": "Venezuela",
+   "ships": 1
+  },
+  {
+   "country": "Cote d'Ivoire",
+   "ships": 1
+  }
+ ],
+ "destinations": [
+  {
+   "country": "India",
+   "ships": 3235,
+   "by_year": [
+    496,
+    347,
+    309,
+    193,
+    305,
+    239,
+    253,
+    200,
+    203,
+    210,
+    127,
+    140,
+    101,
+    112
+   ]
+  },
+  {
+   "country": "Bangladesh",
+   "ships": 2586,
+   "by_year": [
+    230,
+    193,
+    222,
+    195,
+    222,
+    197,
+    185,
+    234,
+    144,
+    254,
+    122,
+    170,
+    130,
+    88
+   ]
+  },
+  {
+   "country": "Turkey",
+   "ships": 1472,
+   "by_year": [
+    153,
+    220,
+    157,
+    100,
+    92,
+    133,
+    113,
+    107,
+    94,
+    77,
+    49,
+    44,
+    84,
+    49
+   ]
+  },
+  {
+   "country": "China",
+   "ships": 1134,
+   "by_year": [
+    209,
+    312,
+    163,
+    158,
+    74,
+    98,
+    22,
+    29,
+    20,
+    8,
+    13,
+    0,
+    18,
+    10
+   ]
+  },
+  {
+   "country": "Pakistan",
+   "ships": 1098,
+   "by_year": [
+    124,
+    105,
+    110,
+    81,
+    141,
+    107,
+    80,
+    35,
+    99,
+    119,
+    43,
+    15,
+    24,
+    15
+   ]
+  },
+  {
+   "country": "Denmark",
+   "ships": 169,
+   "by_year": [
+    21,
+    16,
+    19,
+    17,
+    10,
+    14,
+    12,
+    4,
+    7,
+    16,
+    10,
+    9,
+    10,
+    4
+   ]
+  },
+  {
+   "country": "United States",
+   "ships": 87,
+   "by_year": [
+    0,
+    4,
+    3,
+    1,
+    0,
+    11,
+    14,
+    9,
+    8,
+    9,
+    7,
+    9,
+    9,
+    3
+   ]
+  },
+  {
+   "country": "Indonesia",
+   "ships": 66,
+   "by_year": [
+    1,
+    0,
+    5,
+    5,
+    0,
+    6,
+    7,
+    4,
+    5,
+    6,
+    10,
+    12,
+    2,
+    3
+   ]
+  }
+ ],
+ "owners": [
+  {
+   "country": "China",
+   "ships": 1162,
+   "regions": {
+    "South Asia": 513,
+    "Turkey": 2,
+    "China": 643,
+    "Rest of world": 4
+   }
+  },
+  {
+   "country": "Greece",
+   "ships": 946,
+   "regions": {
+    "South Asia": 779,
+    "Turkey": 133,
+    "China": 31,
+    "Rest of world": 3
+   }
+  },
+  {
+   "country": "United States",
+   "ships": 459,
+   "regions": {
+    "South Asia": 257,
+    "Turkey": 79,
+    "China": 15,
+    "Rest of world": 108
+   }
+  },
+  {
+   "country": "Russia",
+   "ships": 447,
+   "regions": {
+    "South Asia": 253,
+    "Turkey": 73,
+    "China": 59,
+    "Rest of world": 62
+   }
+  },
+  {
+   "country": "Germany",
+   "ships": 431,
+   "regions": {
+    "South Asia": 371,
+    "Turkey": 30,
+    "China": 10,
+    "Rest of world": 20
+   }
+  },
+  {
+   "country": "South Korea",
+   "ships": 396,
+   "regions": {
+    "South Asia": 325,
+    "Turkey": 2,
+    "China": 39,
+    "Rest of world": 30
+   }
+  },
+  {
+   "country": "United Arab Emirates",
+   "ships": 389,
+   "regions": {
+    "South Asia": 365,
+    "Turkey": 13,
+    "China": 3,
+    "Rest of world": 8
+   }
+  },
+  {
+   "country": "Turkey",
+   "ships": 388,
+   "regions": {
+    "South Asia": 143,
+    "Turkey": 237,
+    "China": 1,
+    "Rest of world": 7
+   }
+  },
+  {
+   "country": "Singapore",
+   "ships": 338,
+   "regions": {
+    "South Asia": 321,
+    "Turkey": 4,
+    "China": 10,
+    "Rest of world": 3
+   }
+  },
+  {
+   "country": "India",
+   "ships": 330,
+   "regions": {
+    "South Asia": 327,
+    "Turkey": 0,
+    "China": 2,
+    "Rest of world": 1
+   }
+  },
+  {
+   "country": "Hong Kong",
+   "ships": 323,
+   "regions": {
+    "South Asia": 214,
+    "Turkey": 2,
+    "China": 103,
+    "Rest of world": 4
+   }
+  },
+  {
+   "country": "Norway",
+   "ships": 280,
+   "regions": {
+    "South Asia": 104,
+    "Turkey": 55,
+    "China": 29,
+    "Rest of world": 92
+   }
+  },
+  {
+   "country": "Japan",
+   "ships": 264,
+   "regions": {
+    "South Asia": 205,
+    "Turkey": 10,
+    "China": 40,
+    "Rest of world": 9
+   }
+  },
+  {
+   "country": "Indonesia",
+   "ships": 253,
+   "regions": {
+    "South Asia": 186,
+    "Turkey": 2,
+    "China": 6,
+    "Rest of world": 59
+   }
+  },
+  {
+   "country": "United Kingdom",
+   "ships": 228,
+   "regions": {
+    "South Asia": 121,
+    "Turkey": 51,
+    "China": 10,
+    "Rest of world": 46
+   }
+  }
+ ],
+ "flags": [
+  {
+   "flag": "Panama",
+   "ships": 1751,
+   "south_asia": 1251,
+   "home_owned": 20
+  },
+  {
+   "flag": "St Kitts & Nevis",
+   "ships": 879,
+   "south_asia": 843,
+   "home_owned": 3
+  },
+  {
+   "flag": "Comoros",
+   "ships": 703,
+   "south_asia": 636,
+   "home_owned": 0
+  },
+  {
+   "flag": "Liberia",
+   "ships": 619,
+   "south_asia": 523,
+   "home_owned": 2
+  },
+  {
+   "flag": "Palau",
+   "ships": 523,
+   "south_asia": 500,
+   "home_owned": 0
+  },
+  {
+   "flag": "China",
+   "ships": 448,
+   "south_asia": 9,
+   "home_owned": 434
+  },
+  {
+   "flag": "Togo",
+   "ships": 273,
+   "south_asia": 143,
+   "home_owned": 0
+  },
+  {
+   "flag": "Sierra Leone",
+   "ships": 260,
+   "south_asia": 168,
+   "home_owned": 0
+  },
+  {
+   "flag": "Tanzania",
+   "ships": 254,
+   "south_asia": 157,
+   "home_owned": 3
+  },
+  {
+   "flag": "Marshall Islands",
+   "ships": 227,
+   "south_asia": 180,
+   "home_owned": 0
+  },
+  {
+   "flag": "Russia",
+   "ships": 212,
+   "south_asia": 75,
+   "home_owned": 203
+  },
+  {
+   "flag": "Bahamas",
+   "ships": 200,
+   "south_asia": 124,
+   "home_owned": 2
+  }
+ ],
+ "category_age": [
+  {
+   "category": "Bulk carrier",
+   "ships": 2741,
+   "age": [
+    23.0,
+    28,
+    30.0
+   ]
+  },
+  {
+   "category": "Tanker",
+   "ships": 1890,
+   "age": [
+    22.0,
+    26.0,
+    32.0
+   ]
+  },
+  {
+   "category": "Container",
+   "ships": 1302,
+   "age": [
+    19.0,
+    22.0,
+    27.0
+   ]
+  },
+  {
+   "category": "General cargo",
+   "ships": 2138,
+   "age": [
+    28.0,
+    33.0,
+    39.0
+   ]
+  },
+  {
+   "category": "Offshore & drilling",
+   "ships": 910,
+   "age": [
+    27.0,
+    36.0,
+    41.0
+   ]
+  },
+  {
+   "category": "Passenger & Ro-Ro",
+   "ships": 704,
+   "age": [
+    29.0,
+    34.0,
+    40.8
+   ]
+  },
+  {
+   "category": "Fishing",
+   "ships": 273,
+   "age": [
+    31.0,
+    37,
+    42.0
+   ]
+  },
+  {
+   "category": "Other",
+   "ships": 423,
+   "age": [
+    32.0,
+    38,
+    44.0
+   ]
+  }
+ ],
+ "records": {
+  "oldest": {
+   "name": "FLANDRIA 20",
+   "imo": 7941930,
+   "type_raw": "Passenger Ship, Inland Waterways",
+   "year": 2025,
+   "built": 1915,
+   "age": 110,
+   "gt": 732,
+   "flag": "Belgium",
+   "owner_country": "Belgium",
+   "place": "Ghent",
+   "country": "Belgium"
+  },
+  "youngest": {
+   "name": "SIERRA",
+   "imo": 9697519,
+   "type_raw": "Platform Supply Ship",
+   "year": 2019,
+   "built": 2016,
+   "age": 3,
+   "gt": 3548,
+   "flag": "Niue",
+   "owner_country": "",
+   "place": "Chattogram",
+   "country": "Bangladesh"
+  },
+  "largest": {
+   "name": "BELL",
+   "imo": 7708314,
+   "type_raw": "FSO, Oil",
+   "year": 2019,
+   "built": 1980,
+   "age": 39,
+   "gt": 188728,
+   "flag": "Palau",
+   "owner_country": "Bermuda",
+   "place": "Alang",
+   "country": "India"
+  }
+ }
+}

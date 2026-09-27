@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Last Voyage — the global ship-breaking tracker</title>
+<meta name="description" content="A living index of every large ship sent for breaking since 2012: how many, where, who owned them, under which flag, and how old they were.">
+<meta name="theme-color" content="#050d17">
+<meta property="og:title" content="Last Voyage — the global ship-breaking tracker">
+<meta property="og:description" content="Every large ship sent for breaking since 2012 — where, who, what and how old.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;400;500;600;700;800&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <a class="brand" href="#top" aria-label="Last Voyage home">
+    <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.5" fill="none" stroke="currentColor" stroke-width="1.2" opacity=".45"/><path d="M16 5v22M5 16h22" stroke="currentColor" stroke-width="1" opacity=".35"/><path d="M16 7l3.2 9L16 25l-3.2-9z" fill="var(--flare)"/><circle cx="16" cy="16" r="1.6" fill="var(--abyss)"/></svg>
+    <span>LAST<b>VOYAGE</b></span>
+  </a>
+  <nav class="nav-links" aria-label="Sections">
+    <a href="#index">Index</a><a href="#where">Where</a><a href="#who">Who</a><a href="#flags">Flags</a><a href="#what">What</a><a href="#logbook">Logbook</a><a href="#method">Method</a>
+  </nav>
+  <span class="nav-status mono"><i class="pulse"></i><span data-bind="generated">—</span></span>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <canvas id="swell" aria-hidden="true"></canvas>
+  <div class="hero-coords mono" aria-hidden="true">
+    <span>21°24′N 072°10′E · ALANG</span><span>22°27′N 091°42′E · CHATTOGRAM</span><span>25°07′N 066°44′E · GADANI</span><span>38°48′N 026°56′E · ALIAĞA</span>
+  </div>
+  <div class="wrap hero-inner">
+    <p class="eyebrow mono">The global ship-breaking tracker · <span data-bind="span">2012–2025</span></p>
+    <h1 class="hero-title">
+      <span class="count" data-count="totals.ships">0</span>
+      <span class="hero-line">ships have sailed their <em>last voyage</em>.</span>
+    </h1>
+    <p class="hero-lede">Every large ocean-going vessel sent for scrap since 2012: where it was broken, who owned it, the flag it flew on the way out, and how old it was when it got there. Every ship has a last port of call. For most of them, it's a beach.</p>
+    <div class="tiles" id="hero-tiles"></div>
+  </div>
+  <a class="scroll-cue mono" href="#index" aria-label="Scroll to the index"><span>Descend</span><i></i></a>
+</section>
+
+<!-- ============ 01 INDEX ============ -->
+<section class="section" id="index">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="sec-num mono">01 — The Last Voyage Index</p>
+      <h2>How many ships go to <em>the breakers</em>, year by year</h2>
+      <p class="lede" id="index-lede"></p>
+    </header>
+    <div class="card reveal">
+      <div class="card-bar">
+        <div class="seg" role="tablist" aria-label="Measure">
+          <button role="tab" aria-selected="true" data-measure="ships">Ships</button>
+          <button role="tab" aria-selected="false" data-measure="gt">Gross tonnage</button>
+        </div>
+        <div class="legend" id="legend-regions"></div>
+      </div>
+      <div class="chart" id="chart-index" style="--h:420px"></div>
+      <p class="note mono" id="index-note"></p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card reveal">
+        <h3>Share broken in South Asia</h3>
+        <p class="sub">India, Bangladesh and Pakistan, where most ships are run aground on tidal beaches and cut up by hand.</p>
+        <div class="legend" id="legend-share"></div>
+        <div class="chart" id="chart-share" style="--h:260px"></div>
+      </div>
+      <div class="card reveal">
+        <h3>How old ships are when they're scrapped</h3>
+        <p class="sub">Median age at scrapping, with the middle half of ships shaded. Ships are being kept longer before they're broken up.</p>
+        <div class="chart" id="chart-age" style="--h:290px"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 02 WHERE ============ -->
+<section class="section" id="where">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="sec-num mono">02 — Where</p>
+      <h2>Location, location, <em>liquidation</em></h2>
+      <p class="lede" id="where-lede"></p>
+    </header>
+    <div class="card card-map reveal">
+      <div class="chart" id="chart-map" style="--h:520px"></div>
+      <div class="map-key mono"><span class="dot"></span> Circle area = ships broken there, <span data-bind="span">2012–2025</span></div>
+    </div>
+    <div class="card reveal">
+      <h3>Top destination countries</h3>
+      <p class="sub">Ships broken per year. Each row shares one scale, so you can compare rows directly.</p>
+      <div id="chart-dest" class="dest-list"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 03 WHO ============ -->
+<section class="section" id="who">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="sec-num mono">03 — Who</p>
+      <h2>Whose ships they were, and <em>where they ended up</em></h2>
+      <p class="lede" id="who-lede"></p>
+    </header>
+    <div class="card reveal">
+      <div class="card-bar"><h3>Top 15 owner countries</h3><div class="legend" id="legend-owners"></div></div>
+      <p class="sub">The beneficial owner's country (who actually profits from the ship), split by where the ship was broken.</p>
+      <div class="chart" id="chart-owners"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 04 FLAGS ============ -->
+<section class="section" id="flags">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="sec-num mono">04 — Flags</p>
+      <h2>Flags of <em>convenience</em>, or convenience of flags</h2>
+      <p class="lede" id="flags-lede"></p>
+    </header>
+    <div class="grid-2 grid-wide-left">
+      <div class="card reveal">
+        <div class="card-bar"><h3>Flag flown on the last voyage</h3><div class="legend" id="legend-flags"></div></div>
+        <p class="sub">The 12 most common flags, and how many of those ships had an owner from that same country.</p>
+        <div class="chart" id="chart-flags"></div>
+      </div>
+      <div class="card reveal">
+        <h3>Flag differs from the owner's country</h3>
+        <p class="sub">Share of scrapped ships whose last flag was not their owner's country.</p>
+        <div class="chart" id="chart-mismatch" style="--h:400px"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 05 WHAT ============ -->
+<section class="section" id="what">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="sec-num mono">05 — What</p>
+      <h2>Bulkers, boxships and <em>everything</em> in between</h2>
+      <p class="lede" id="what-lede"></p>
+    </header>
+    <div class="card reveal">
+      <div class="card-bar">
+        <h3>Fleet mix of scrapped ships</h3>
+        <div class="seg" role="tablist" aria-label="Scale">
+          <button role="tab" aria-selected="true" data-mix="abs">Ships</button>
+          <button role="tab" aria-selected="false" data-mix="pct">Share</button>
+        </div>
+      </div>
+      <div class="legend" id="legend-cats"></div>
+      <div class="chart" id="chart-mix" style="--h:400px"></div>
+    </div>
+    <div class="card reveal">
+      <h3>Age at scrapping, by ship type</h3>
+      <p class="sub">The line spans the middle half of ships (25th to 75th percentile); the dot is the median.</p>
+      <div class="chart" id="chart-catage"></div>
+    </div>
+    <div class="records reveal" id="records"></div>
+  </div>
+</section>
+
+<!-- ============ 06 LOGBOOK ============ -->
+<section class="section" id="logbook">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="sec-num mono">06 — The Logbook</p>
+      <h2>Every ship, <em>by name</em></h2>
+      <p class="lede">Search the full register by ship name, IMO number, owner country, flag or yard. The logbook is also the table view for every chart above.</p>
+    </header>
+    <div class="card reveal">
+      <div class="filters">
+        <label class="search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M13 13l4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg><input id="q" type="search" placeholder="Search ships, IMO, owner, flag, yard…" autocomplete="off"></label>
+        <select id="f-year" aria-label="Year"><option value="">All years</option></select>
+        <select id="f-cat" aria-label="Ship type"><option value="">All types</option></select>
+        <select id="f-region" aria-label="Destination"><option value="">All destinations</option></select>
+      </div>
+      <div class="table-wrap">
+        <table class="log">
+          <thead><tr><th>Year</th><th>Ship</th><th>Type</th><th class="num">GT</th><th class="num">Built</th><th>Last flag</th><th>Owner country</th><th>Broken at</th></tr></thead>
+          <tbody id="log-body"><tr><td colspan="8" class="empty">Loading the register…</td></tr></tbody>
+        </table>
+      </div>
+      <div class="pager mono"><span id="log-count"></span><span class="pager-btns"><button id="prev" aria-label="Previous page">←</button><span id="page"></span><button id="next" aria-label="Next page">→</button></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 07 METHOD ============ -->
+<section class="section" id="method">
+  <div class="wrap">
+    <header class="sec-head reveal">
+      <p class="sec-num mono">07 — Method</p>
+      <h2>Where the numbers <em>come from</em></h2>
+    </header>
+    <div class="method reveal">
+      <div>
+        <h3>Source</h3>
+        <p>All figures come from the annual <a href="https://shipbreakingplatform.org/annual-lists/" target="_blank" rel="noopener">lists of ships dismantled worldwide</a> published by the <a href="https://shipbreakingplatform.org" target="_blank" rel="noopener">NGO Shipbreaking Platform</a>. Each list names every large ocean-going commercial ship broken that year, with its IMO number, type, size, age, flag, owners and scrapping yard. The Platform compiles them from several sources and cross-checks them. Coverage starts with the 2012 list. Last Voyage is an independent visualisation and is not affiliated with the Platform.</p>
+        <h3>How it stays current</h3>
+        <p>A scheduled GitHub Action checks the Platform's list page every week. When a new or corrected list appears, it downloads the file, re-runs the pipeline and republishes this site. New annual lists usually appear in January or February. Nobody has to press a button.</p>
+      </div>
+      <div>
+        <h3>Definitions</h3>
+        <dl>
+          <dt>Year</dt><dd>The year of the list a ship appears in, which is roughly the year it arrived at the breakers.</dd>
+          <dt>South Asia</dt><dd>Ships broken in India, Bangladesh or Pakistan. Nearly all of them are beached at Alang, Chattogram or Gadani.</dd>
+          <dt>Ship type</dt><dd>The source lists more than 300 type labels. We group them into eight families by keyword.</dd>
+          <dt>Age</dt><dd>List year minus year built.</dd>
+          <dt>Gross tonnage</dt><dd>Reported from the 2014 list onwards only, so tonnage charts start in 2014.</dd>
+        </dl>
+        <h3>What we left out, on purpose</h3>
+        <p>Scrap prices ($/LDT) appear only in the 2012–13 lists. Weekly broker price reports exist, but they only go back to about 2021 and their publishers restrict republication. Light displacement tonnage has large gaps. Metrics we can't track consistently for the whole period aren't shown.</p>
+      </div>
+    </div>
+    <div class="download reveal">
+      <a class="btn" href="data/ships.json" download>Download the register (JSON)</a>
+      <a class="btn btn-ghost" href="data/stats.json" download>Download aggregates (JSON)</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span class="brand small"><span>LAST<b>VOYAGE</b></span></span>
+    <span class="mono">Data: NGO Shipbreaking Platform · Refreshed <span data-bind="generated">—</span> · No ships were harmed in the making of this website. They were already being scrapped.</span>
+  </div>
+</footer>
+
+<div class="tip" id="tip" role="tooltip" hidden></div>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

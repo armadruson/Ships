@@ -1,0 +1,5 @@
+__pycache__/
+.DS_Store
+*.pyc
+# NGO source files are downloaded on each run, not redistributed
+data/raw/
