@@ -465,6 +465,7 @@ async function main() {
   $$("[data-bind=generated]").forEach((e) => { e.textContent = `Updated ${d3.timeFormat("%d %b %Y")(new Date(stats.generated))}`; });
   $$("[data-bind=span]").forEach((e) => { e.textContent = `${stats.years[0]}–${stats.years[1]}`; });
   countUp($(".count"), stats.totals.ships);
+  $$("[data-count-text]").forEach((e) => { e.textContent = fmt(stats.totals.ships); });
 
   // hero tiles
   const L = stats.latest;

@@ -294,3 +294,24 @@ table.log { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 
   .reveal { opacity: 1; transform: none; }
   html { scroll-behavior: auto; }
 }
+
+/* ---------- Captain Nikita ---------- */
+.method-top { display: grid; grid-template-columns: 1fr auto; gap: 24px 48px; align-items: center; margin-bottom: 40px; }
+.method-top .sec-head { margin-bottom: 0; }
+.captain { margin: 0; display: grid; justify-items: center; gap: 16px; text-align: center; }
+.porthole { position: relative; width: 250px; aspect-ratio: 1; border-radius: 50%;
+  box-shadow: 0 30px 60px -20px rgba(0, 0, 0, .8), 0 0 0 1px rgba(233, 201, 138, .15), 0 0 60px -10px rgba(255, 170, 90, .18);
+  transform-origin: 50% 100%; animation: rock 6s ease-in-out infinite; }
+.porthole img { position: absolute; inset: 6.5%; width: 87%; height: 87%; border-radius: 50%; object-fit: cover; }
+.porthole::after { content: ""; position: absolute; inset: 6.5%; border-radius: 50%; pointer-events: none;
+  background: radial-gradient(circle at 32% 26%, rgba(255, 255, 255, .28), transparent 38%), radial-gradient(circle, transparent 62%, rgba(5, 13, 23, .45)); }
+.porthole-ring { position: absolute; inset: 0; width: 100%; height: 100%; }
+.captain:hover .porthole { animation-duration: 1.4s; }
+.captain figcaption strong { display: block; font-size: 20px; font-weight: 700; letter-spacing: -.01em; }
+.captain figcaption strong::before { content: "⚓ "; color: var(--flare); font-size: .8em; }
+.captain figcaption .mono { display: block; color: var(--muted); font-size: 11px; max-width: 250px; margin: 6px auto 0; line-height: 1.6; }
+@keyframes rock { 0%, 100% { transform: rotate(-2.5deg); } 50% { transform: rotate(2.5deg); } }
+@media (max-width: 980px) {
+  .method-top { grid-template-columns: 1fr; }
+  .porthole { width: 200px; }
+}
